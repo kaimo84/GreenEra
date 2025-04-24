@@ -2,6 +2,41 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #14532d; /* Deep green */
+  background-color: #14532d; /* Deep green background */
   color: white;              /* White text */
+}
+
+header {
+  background-color: #0e3e20;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#hero {
+  background-color: #14532d;
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+section {
+  padding: 2rem;
+  background: #14532d;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #0e3e20;
+  color: white;
 }
