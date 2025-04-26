@@ -2,12 +2,12 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #14532d; /* Dark green background */
+  background-color: #14532d; /* Green background */
   color: white; /* White text */
 }
 
 header {
-  background-color: #0e3e20; /* Even darker green for header */
+  background-color: #0e3e20;
   color: white;
   padding: 1rem 2rem;
   display: flex;
@@ -34,13 +34,14 @@ nav ul li a {
 
 #hero {
   background-color: #14532d;
+  color: white;
   text-align: center;
   padding: 5rem 2rem;
 }
 
 section {
   padding: 4rem 2rem;
-  background-color: #14532d; /* Same green */
+  background-color: #14532d;
   margin: 2rem 0;
   border-radius: 8px;
 }
@@ -53,7 +54,7 @@ footer {
 }
 
 .product-card {
-  background-color: #1f5936; /* Slightly different green for product cards */
+  background-color: #1f5936;
   color: white;
   border-radius: 8px;
   padding: 1rem;
