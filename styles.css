@@ -2,12 +2,12 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #14532d; /* Deep green background */
-  color: white;              /* White text */
+  background-color: #14532d; /* Dark green background */
+  color: white; /* White text */
 }
 
 header {
-  background-color: #0e3e20;
+  background-color: #0e3e20; /* Even darker green for header */
   color: white;
   padding: 1rem 2rem;
   display: flex;
@@ -15,22 +15,33 @@ header {
   align-items: center;
 }
 
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 1.5rem;
+}
+
 nav ul li a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
 #hero {
   background-color: #14532d;
-  color: white;
   text-align: center;
   padding: 5rem 2rem;
 }
 
 section {
-  padding: 2rem;
-  background: #14532d;
-  margin: 1rem;
+  padding: 4rem 2rem;
+  background-color: #14532d; /* Same green */
+  margin: 2rem 0;
   border-radius: 8px;
 }
 
@@ -39,4 +50,14 @@ footer {
   padding: 1rem;
   background-color: #0e3e20;
   color: white;
+}
+
+.product-card {
+  background-color: #1f5936; /* Slightly different green for product cards */
+  color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  text-align: center;
 }
